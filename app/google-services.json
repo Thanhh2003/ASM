@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1044851193893",
+    "project_id": "asmapi-5fb2d",
+    "storage_bucket": "asmapi-5fb2d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044851193893:android:6ca8d4a29400f037e2a7cc",
+        "android_client_info": {
+          "package_name": "fpt.poly.thanhddph23154.asmapi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByNuQeBAF2AdoMmWKsou_98VBdAgCKTwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
