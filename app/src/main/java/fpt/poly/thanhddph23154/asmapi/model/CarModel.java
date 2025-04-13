@@ -9,22 +9,55 @@ public class CarModel {
 
     @SerializedName("namsx")
 
-    private int namsx;
+    private String namsx;
 
-    private String hang;
+    private String xuatxu;
 
     private double gia;
+
+    private String img;
+
+    private boolean liked;
+
+    private String mota;
+
+    private int soluong;
+
+    public int getSoluong() {
+        return soluong;
+    }
+
+    public void setSoluong(int soluong) {
+        this.soluong = soluong;
+    }
+
+
+    public CarModel(String mota) {
+        this.mota = mota;
+    }
+
+    public String getMota() {
+        return mota;
+    }
+
+    public void setMota(String mota) {
+        this.mota = mota;
+    }
+
+    public boolean isLiked() { return liked; }
+    public void setLiked(boolean liked) { this.liked = liked; }
 
 
     public CarModel() {
     }
 
-    public CarModel(String _id, String ten, int namsx, String hang, double gia) {
+    public CarModel(String _id, String ten, String namsx, String xuatxu, double gia, String img) {
         this._id = _id;
         this.ten = ten;
         this.namsx = namsx;
-        this.hang = hang;
+        this.xuatxu = xuatxu;
         this.gia = gia;
+        this.img = img;
     }
 
     public String get_id() {
@@ -43,20 +76,20 @@ public class CarModel {
         this.ten = ten;
     }
 
-    public int getNamsx() {
+    public String getNamsx() {
         return namsx;
     }
 
-    public void setNamsx(int namsx) {
+    public void setNamsx(String namsx) {
         this.namsx = namsx;
     }
 
-    public String getHang() {
-        return hang;
+    public String getXuatxu() {
+        return xuatxu;
     }
 
-    public void setHang(String hang) {
-        this.hang = hang;
+    public void setXuatxu(String xuatxu) {
+        this.xuatxu = xuatxu;
     }
 
     public double getGia() {
@@ -65,5 +98,13 @@ public class CarModel {
 
     public void setGia(double gia) {
         this.gia = gia;
+    }
+
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
     }
 }

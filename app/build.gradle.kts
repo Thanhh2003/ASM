@@ -52,6 +52,15 @@ dependencies {
 
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
+    annotationProcessor ("com.github.bumptech.glide:compiler:4.16.0")
+
+
+        implementation ("com.google.code.gson:gson:2.8.8") // Gson for JSON parsing
+       // Retrofit Gson converter
+        implementation ("com.squareup.okhttp3:okhttp:4.9.0") // OkHttp for network requests
+        implementation ("androidx.recyclerview:recyclerview:1.2.1") // RecyclerView for displaying lists
+
 
 
 }
